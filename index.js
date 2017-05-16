@@ -19,7 +19,7 @@ details.appendChild(info)
 const name = document.createElement('li')
 name.innerHTML = `name ${personName}`
 info.appendChild(name)
-const hair = document.createElement('li'
+const hair = document.createElement('li')
 hair.innerHTML = `hair ${colorDiv}`
 info.appendChild
 const age = document.createElement('li')
@@ -40,3 +40,4 @@ birth.appendChild
 // }
 
 personForm.addEventListener('submit', handleSubmit)
+}
